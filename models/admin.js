@@ -7,16 +7,13 @@ const Admin = db.define(
         id:{
             type: Sequelize.UUID,
             defaultValue: Sequelize.UUIDV4,
-            allowNull: false,
             primaryKey: true,         
         },
-        administrador: {
+        admin: {
             type: Sequelize.STRING,
-            allowNull: false
         },
         senha: {
             type:Sequelize.STRING,
-            allowNull: false
         },
         
 
