@@ -2,7 +2,7 @@
   "name": "webapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,7 @@
     "ws": "^8.13.0"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "nodemon": "^2.0.20",
     "sequelize-cli": "^6.6.0"
   }
